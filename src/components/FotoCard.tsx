@@ -5,7 +5,7 @@ type FotoCardProps = {
 const FotoCard: React.FC<FotoCardProps> = ({ photo }) => {
   return (
     <>
-      <div className="h-96 w-96 p-3 flex flex-col items-center gap-2 bg-white rounded-lg shadow-lg hover:ring hover:ring-green-400 hover:shadow-none">
+      <div className="h-96 w-96 p-3 flex flex-col items-center gap-2 bg-white rounded-lg">
         <img
           src={photo?.links?.download}
           alt=""
